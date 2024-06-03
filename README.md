@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a live [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+This is the first solution I found to get a next.js project deployed on Github Pages. 
 
 ## Getting Started
 
@@ -30,9 +32,11 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 
-# Next.js GitHub Pages
+# Deploy Next.js GitHub Pages
 
-Deploy Next.js to GitHub Pages with GitHub Actions. [View the deployed app](https://gregrickaby.github.io/nextjs-github-pages/) 🚀
+### This comes from a solution I found through [gregrickaby's github page](https://github.com/gregrickaby/nextjs-github-pages) Below is the documentation from his repo for reference.
+
+Deploy Next.js to GitHub Pages with GitHub Actions. [View the deployed app](https://joeoverflowcode.github.io/next_ghpages/) 🚀
 
 Now with Next.js App Router support! If you need Pages Router support [click here](https://github.com/gregrickaby/nextjs-github-pages/releases/tag/pages_dir).
 
@@ -64,7 +68,7 @@ const nextConfig = {
    *
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
-  basePath: "/nextjs-github-pages",
+  basePath: "/next_ghpages",
 
   /**
    * Disable server-based image optimization. Next.js does not support
